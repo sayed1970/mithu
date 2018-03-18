@@ -1,0 +1,25 @@
+
+public class Family {
+	private String firstName;
+	private String lastName;
+	private String gender;
+	private int age;
+	
+	public Family(String ffirstName, String fLastName, String fGender, int fAge )
+	
+	{
+		firstName = ffirstName;
+		lastName = fLastName;
+		gender = fGender;
+		age = fAge;
+	}
+	
+public void displayFamilyDetails()
+
+{
+	System.out.println("Name :" +firstName " " +lastName);
+	System.out.println("Gender : " +gender);
+	System.out.println("Age : " +age);
+}
+
+}
